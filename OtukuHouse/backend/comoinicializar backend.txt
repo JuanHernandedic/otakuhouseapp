@@ -1,0 +1,6 @@
+se debe inicializar el back end con el comando npm init y dale enter a todo y crea el archivo json
+
+
+2 instalar estas dependecias en el backend: npm install mongoose express cors body-parser
+
+3 instar esta otra dependencia: npm install nodemon --save-dev

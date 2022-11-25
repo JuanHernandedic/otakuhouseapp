@@ -1,0 +1,29 @@
+xd
+mern: MONGO-EXPRESS-REACT.JS-NODE.JS
+comandos cmd 
+npx create -react-app proyecto
+cd proyecto /si no esta dentro del proyecto y el nombre q pusiste al proyecto
+npm start/ desplegar o redenrizar el servidor 
+
+en vscode
+terminal de visual ctrl + ñ
+npm i gh-pages
+PS C:\Users\dicdh\OneDrive\Escritorio\pruebasemana2> git config --global user.email juanhernanadez2004@gmail.com
+PS C:\Users\dicdh\OneDrive\Escritorio\pruebasemana2> git config --global user.name "JuanHernandedic" datos del github cuenta
+ir source control 
+los tres puntos del souse control ladod del actualizador
+ir changes y  stage all changes
+ir a commit y commit all
+abre pestaña y first committed
+y public bash o publicar branch como publico el proyecto puede variar
+abres proyecto en git hub
+en el package.json
+pegar esto de primero "homepage": "https://JuanHernandedic.github.io/proyecto",
+y en debug
+,"predeploy": "npm run build",
+    "deploy": " gh-pages -d build" de ultimo
+    luego en el terminal ctrl +ñ
+    npm run build
+    npm run deploy
+    esperar q diga finish ir a git hub verificar q los ubio en gh-pages y aparezca activoi
+    entras ahi y le das ver implementos y te muestra el servidor funcionando
