@@ -8,15 +8,30 @@ export default function homePage() {
     <Container>
       <Row className="mt-5">
         <Col xs={{ span: 12 }} md={{ span: 6 }} className="mb-4">
-          <h2>Bienvid@ a Otaku House</h2>
-          <p>Somos Una Paguina de recomendaciones de anime en la Semana</p>
-          <p>
-            mira que animes estan en tendecia y cuales te recomienda otaku house
-            por esta semana
-          </p>
+          <h1 style={{ color: "black" }}>
+            <strong>Bienvenid@ a Otaku House</strong>
+          </h1>
+          <h2>
+            <strong>
+              Somos Una Pagina de recomendaciones de anime en la Semana
+            </strong>
+          </h2>
+          <h2>
+            <strong>
+              Mira los animes estan en tendencia y cuales te recomienda otaku
+              house por esta semana
+            </strong>
+          </h2>
+          <br></br>
           <div>
-            <Link to={routes.login}>Ingresa</Link> o
-            <Button as={Link} to={routes.registro} className="ml-1">
+            <Link to={routes.login} className="btn btn-light">
+              Ingresa
+            </Link>{" "}
+            <Button
+              as={Link}
+              to={routes.registro}
+              className="ml-1 btn btn-dark"
+            >
               crea Una Cuenta
             </Button>
           </div>
@@ -24,10 +39,16 @@ export default function homePage() {
         <Col>
           <img
             className="img-fluid"
-            src="/img/spy-form.jpg"
+            src="/img/0805a6650302f8b6699afa9603d0839d.jpg"
             alt="otaku-house"
+            style={{
+              width: "200px",
+              height: "200px",
+              borderRadius: "50%",
+              objectFit: "cover",
+              cursor: "pointer",
+            }}
           />
-          <p>onicham</p>
         </Col>
       </Row>
     </Container>
