@@ -4,7 +4,7 @@ let cors = require("cors");
 let bodyParser = require("body-parser");
 
 // Ruta de Express
-const studentRoute = require("../backend/routes/student.route");
+const othouseRoute = require("../backend/routes/registro_route");
 
 // DB Config
 const db = require("../backend/database/db").mongoURI;
@@ -22,7 +22,7 @@ app.use(
   })
 );
 app.use(cors());
-app.use("/students", studentRoute);
+app.use("/usuariosOtakuhouse", othouseRoute);
 
 // PORT
 const port = process.env.PORT || 4000;

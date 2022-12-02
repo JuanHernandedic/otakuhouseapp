@@ -1,0 +1,8 @@
+.imagenfondo {
+  width: 30vw;
+  margin: 0 auto;
+  background: black;
+  background-size: cover;
+
+  background-repeat: no-repeat;
+}
