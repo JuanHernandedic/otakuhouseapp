@@ -19,7 +19,7 @@ export default function homePage() {
           <h2>
             <strong>
               Mira los animes estan en tendencia y cuales te recomienda otaku
-              house por esta semana
+              house por esta semana :P
             </strong>
           </h2>
           <br></br>
